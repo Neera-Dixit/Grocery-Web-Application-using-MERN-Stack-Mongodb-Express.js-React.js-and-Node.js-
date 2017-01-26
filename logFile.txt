@@ -1,0 +1,5 @@
+{"level":"error","message":"Hello world","timestamp":1485420553960}
+{"level":"error","message":"Hello world","timestamp":"2:22:26 PM"}
+{"level":"error","message":"Hello world","timestamp":"2:24:45 PM"}
+{"level":"error","message":"Hello world","timestamp":"2:25:20 PM"}
+{"level":"error","message":"Hello world","timestamp":"2017-01-26T08:58:04.465Z"}

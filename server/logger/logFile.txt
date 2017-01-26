@@ -1,0 +1,23 @@
+{"level":"info","message":"Connected to mongo DB","timestamp":"1/26/2017, 7:44:49 PM"}
+{"level":"info","message":"Connected to mongo DB","timestamp":"1/26/2017, 7:46:14 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:46:25 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:47:25 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:48:57 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:48:57 PM"}
+{"level":"info","message":"Connected to mongo DB","timestamp":"1/26/2017, 7:49:29 PM"}
+{"responseTime":"10 ms","url":"/","level":"info","message":"","timestamp":"1/26/2017, 7:49:38 PM"}
+{"responseTime":"17 ms","url":"/items/fetch","level":"info","message":"","timestamp":"1/26/2017, 7:49:38 PM"}
+{"responseTime":"2 ms","url":"/","level":"info","message":"","timestamp":"1/26/2017, 7:50:08 PM"}
+{"responseTime":"8 ms","url":"/items/fetch","level":"info","message":"","timestamp":"1/26/2017, 7:50:08 PM"}
+{"responseTime":"11 ms","url":"/items/5885041579b9df097021cfd4","level":"info","message":"","timestamp":"1/26/2017, 7:50:44 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:51:13 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:52:13 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:56:23 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:56:23 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:56:32 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:56:32 PM"}
+{"level":"info","message":"Disconnected to mongo DB","timestamp":"1/26/2017, 7:56:42 PM"}
+{"level":"error","message":"Error Connecting to mongo DB","timestamp":"1/26/2017, 7:56:42 PM"}
+{"level":"info","message":"Connected to mongo DB","timestamp":"1/26/2017, 7:57:10 PM"}
+{"responseTime":"10 ms","url":"/","Request Method":"GET","Ip":"::1","User-Agent":"Chrome 55.0.2883 / Windows 10 0.0.0","level":"info","message":"","timestamp":"1/26/2017, 7:57:21 PM"}
+{"responseTime":"17 ms","url":"/items/fetch","Request Method":"GET","Ip":"::1","User-Agent":"Chrome 55.0.2883 / Windows 10 0.0.0","level":"info","message":"","timestamp":"1/26/2017, 7:57:21 PM"}

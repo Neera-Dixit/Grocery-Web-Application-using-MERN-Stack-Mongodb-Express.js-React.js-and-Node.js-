@@ -1,7 +1,7 @@
 var express=require('express');
 var router=express.Router();
 
-var itemRoutes=function(groceryData){
+var itemRoutes=function(groceryData,logger){
 
 	router.route('/:id')
 	.delete(function(req,res){
@@ -10,6 +10,7 @@ var itemRoutes=function(groceryData){
 
 				 data.remove(function(err,data){
 					if(err){
+						logger.error(err);
 						res.status(500).send("Error fecthing Data");
 					}
 					else{
@@ -19,6 +20,7 @@ var itemRoutes=function(groceryData){
 			}
 
 			if(err){
+				logger.error(err);
 				res.status(404).send("Record Not Found");
 			}
 			
@@ -35,6 +37,7 @@ var itemRoutes=function(groceryData){
 			}
 
 			if(err){
+				logger.error(err);
 				res.status(404).send("Record Not Found");
 			}
 			
@@ -45,6 +48,7 @@ var itemRoutes=function(groceryData){
 	.get(function(req,res){
 		groceryData.find({},function(err,data){
 			if(err){
+				logger.error(err);
 				res.status(500).send("Error fecthing Data");
 			}
 
@@ -58,6 +62,7 @@ var itemRoutes=function(groceryData){
 		var item=req.body;
 		new groceryData(item).save(function(err,data){
 			if(err){
+				logger.error(err);
 				res.status(500).send("Error Insering Data");
 			}
 
