@@ -32,8 +32,8 @@ var itemRoutes=function(groceryData,logger){
 			if(data){
 			 for(var key in req.body){
 				 	data[key]=req.body[key];
-				 	data.save();
 				 }
+				data.save();
 			}
 
 			if(err){
